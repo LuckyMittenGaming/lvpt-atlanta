@@ -1,1 +1,2 @@
 generate Atlanta city page from Los Angeles template
+retrigger: 2026-05-25
