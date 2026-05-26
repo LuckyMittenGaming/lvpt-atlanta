@@ -1246,6 +1246,28 @@
   }
 }
 /* BLOCK 107 END */
+
+/* =========================================================
+   BLOCK 108 START: ATLANTA MOBILE FOOTER CTA CLEARANCE
+   Purpose:
+   - Keeps the very bottom footer/social area above the fixed mobile CTA
+   - Does not affect desktop layout
+   ========================================================= */
+@media (max-width: 767px) {
+  body {
+    padding-bottom: 5.5rem !important;
+  }
+
+  #lvpt-corporate-events > .full-bleed:last-of-type {
+    padding-bottom: 8rem !important;
+  }
+
+  #lvpt-corporate-events .lvpt-footer-contact {
+    padding-bottom: 5.5rem !important;
+  }
+}
+/* BLOCK 108 END */
+
     /* BLOCK 106 END */
 
 </style>
@@ -1312,8 +1334,9 @@
     
     <div class="max-w-xl lg:max-w-2xl text-center md:text-left">
       <h1 class="hero-headline font-bebas tracking-wide mb-6">
-        <span class="gradient-text">Atlanta</span> Corporate Events <span class="gradient-text">&amp; Event Ideas</span><br>
-        Built for Teams, Clients &amp; <span class="gradient-text">Real Engagement</span>
+        <span class="text-white">Atlanta </span><span class="gradient-text">Corporate Events &amp;</span><br>
+        <span class="text-white">Event Ideas Built for </span><span class="gradient-text">Teams, Clients &amp;</span><br>
+        <span class="text-white">Real Engagement</span>
       </h1>
       
       <p class="lvpt-mobile-left text-xl md:text-3xl text-white font-medium mb-6 leading-snug">
@@ -1935,6 +1958,9 @@
   #lvpt-corporate-gallery .lvpt-gallery-back-title { margin: 0; font-family: 'Bebas Neue', sans-serif; font-size: clamp(1.08rem, 4.6vw, 1.55rem); font-weight: 400; letter-spacing: 0.02em; color: #FBBF24; line-height: 1.1; }
   /* rest of styles unchanged */
   #lvpt-corporate-gallery .lvpt-gallery-card-hint { display: inline-flex; align-items: center; gap: 0.42rem; margin-top: 0.9rem; color: rgba(255, 255, 255, 0.74); font-size: clamp(0.78rem, 2.7vw, 0.92rem); font-weight: 700; font-family: 'Inter', sans-serif; }
+  #lvpt-corporate-gallery .lvpt-gallery-front-content { display: block; width: 100%; }
+  #lvpt-corporate-gallery .lvpt-gallery-card-title { display: block; }
+  #lvpt-corporate-gallery .lvpt-gallery-card-hint { display: flex; width: max-content; max-width: 100%; }
   #lvpt-corporate-gallery .lvpt-gallery-back { display: flex; flex-direction: column; gap: clamp(0.75rem, 2.4vw, 1rem); padding: clamp(0.85rem, 3.8vw, 1.45rem); background: radial-gradient(circle at 50% 0%, rgba(255, 218, 124, 0.11), transparent 18rem), linear-gradient(180deg, #111111 0%, var(--lvpt-gallery-panel-2) 100%); transform: rotateY(180deg) translateZ(1px); opacity: 0; visibility: hidden; transition: opacity 0.22s ease; }
   #lvpt-corporate-gallery .lvpt-gallery-card.is-flipped .lvpt-gallery-back { opacity: 1; visibility: visible; overflow-y: auto; }
   #lvpt-corporate-gallery .lvpt-gallery-back-label { margin: 0.15rem 0 0; color: var(--lvpt-gallery-gold); font-size: clamp(0.66rem, 2vw, 0.77rem); font-weight: 900; letter-spacing: 0.16em; line-height: 1.2; text-transform: uppercase; font-family: 'Inter', sans-serif; }
@@ -2117,7 +2143,7 @@
               </div>
               <p class="lvpt-gallery-back-label">Atlanta Corporate Events</p>
               <h3 class="lvpt-gallery-back-title">Venetian Poker Room Experience</h3>
-              <p class="lvpt-gallery-back-description">A premium Las Vegas poker room setting can give Atlanta corporate guests an authentic, high-end destination option for client entertainment, executive groups, and VIP team experiences.</p>
+              <p class="lvpt-gallery-back-description">If your Atlanta group is coming to see us in Las Vegas, the Venetian Poker Room experience creates an authentic, high-end destination setting for client entertainment, executive groups, and VIP team events. If you have a suitable poker room near you, we can also help coordinate a pro-led training experience there when venue access and logistics allow.</p>
               <div class="lvpt-gallery-back-meta">
                 <span class="lvpt-gallery-pill">Atlanta Corporate Events</span>
                 <span class="lvpt-gallery-pill">Atlanta Client Entertainment</span>
